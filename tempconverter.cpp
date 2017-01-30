@@ -19,18 +19,18 @@ int main(){
 			cin >> inTemp;
 			outTemp = inTemp * 1.8 + 32;
 			cout << "TEMPERATURE IN FAHRENHEIT: " << outTemp;
-			return 0;
+			break;
 		}
 		case 2: {
 			cout << "\n\nTEMPERATURE IN FAHRENHEIT: ";
 			cin >> inTemp;
 			outTemp = (inTemp - 32) * 5 / 9;
 			cout << "TEMPERATURE IN CELSIUS: " << outTemp;
-			return 0;
+			break;
 		}
 		case 3: {
-			return 0;
+			break;
 		}
 	}
-
+	return 0;
 }
